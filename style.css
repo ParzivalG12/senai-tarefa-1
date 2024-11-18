@@ -1,0 +1,25 @@
+.menu {
+    background-color: black;
+    margin-top:-15px;
+    display: block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;   
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end   ;
+}
+
+h1{
+    text-align: center;
+} 
+.descricao{
+    text-align: justify;
+    text-align: center;
+}
