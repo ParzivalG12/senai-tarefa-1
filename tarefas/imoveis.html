@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Imóveis Disponíveis</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="../tarefas/index.html">Home</a></li>
+                    <li><a href="../tarefas/imoveis.html">Imóveis</a></li>
+                    <li><a href="../tarefas/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="marquee">
+        <h1>Confira Nossos Imóveis Disponíveis!</h1>
+    </div>
+
+    <section class="imoveis">
+        <div class="imovel">
+            <img src="../tarefas/loja-imoveis/img/casa 1.jpg" alt="Casa de Família">
+            <h2>Casa de Família</h2>
+            <p class="resumo">Residência independente para uma única família, com quartos, banheiros, cozinha, sala de estar e quintal.</p>
+            <p class="detalhes" hidden>Essa residência oferece conforto e privacidade, com espaço amplo para crianças e animais de estimação. Localizada em um bairro tranquilo.</p>
+            <button type="button" onclick="toggleDetalhes(this)">Ver Detalhes</button>
+        </div>
+
+        <div class="imovel">
+            <img src="../tarefas/loja-imoveis/img/casa 2.jfif" alt="Apartamento">
+            <h2>Apartamento</h2>
+            <p class="resumo">Unidade residencial em edifício compartilhado, opções de quitinetes a apartamentos amplos.</p>
+            <p class="detalhes" hidden>O apartamento é moderno, com vista privilegiada, garagem e segurança 24 horas. Perfeito para casais ou famílias pequenas.</p>
+            <button type="button" onclick="toggleDetalhes(this)">Ver Detalhes</button>
+        </div>
+
+        <div class="imovel">
+            <img src="../tarefas/loja-imoveis/img/casa 3.jfif" alt="Prédio Comercial">
+            <h2>Prédio Comercial</h2>
+            <p class="resumo">Prédio destinado ao uso comercial, ideal para escritórios, lojas ou restaurantes.</p>
+            <p class="detalhes" hidden>Localizado em uma área central, com alta visibilidade e acessibilidade. Inclui vagas de estacionamento.</p>
+            <button type="button" onclick="toggleDetalhes(this)">Ver Detalhes</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja de Imóveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
